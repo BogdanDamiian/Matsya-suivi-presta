@@ -1,0 +1,43 @@
+{
+  "name": "suivi-prestations",
+  "version": "1.0.0",
+  "description": "Système de gestion et suivi des prestations intellectuelles pour managers d'achats",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "live-server --port=8000",
+    "build": "echo 'No build process needed for static HTML'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "gestion",
+    "prestations",
+    "sous-traitants",
+    "suivi",
+    "management",
+    "achats",
+    "dashboard",
+    "freelance",
+    "tracking"
+  ],
+  "author": {
+    "name": "Votre Nom",
+    "email": "votre.email@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-username/suivi-prestations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/votre-username/suivi-prestations/issues"
+  },
+  "homepage": "https://votre-username.github.io/suivi-prestations",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
